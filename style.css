@@ -11,17 +11,18 @@
     top: 0px;
     left: 0px;
     z-index: 100;
-    padding: .7rem 7rem;
+    padding: .7rem 1rem;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
     background: black;
 }
 .navbar .navbar-brand
 {
-    font-size: 25px;
+    font-size: clamp(16px,4vw,25px);
     font-weight: 900px;
     letter-spacing: 2px;
     color: #eb6207 !important;
     font-family: fantasy;
+    white-space: nowrap;
 }
 #navbarSupportedContent nav-link
 {   

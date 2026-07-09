@@ -14,15 +14,13 @@ label{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 form{
-    position: relative;
     justify-content: center;
     align-items: center;
-    top: -450px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 800;
     width: 100%;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px 30px 15px;
 }
 h1{
     font-size: 2rems;
@@ -52,7 +50,7 @@ label{
 }
 section
 {
-    min-height: 100vh ;
+    min-height: 40vh ;
     width: 100%;
     display: flex;
     justify-content: center;
