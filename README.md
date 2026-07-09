@@ -28,6 +28,7 @@ javascript for validation
  click the link 
  email is vignesh@gmail.com
  passord is vignesh123
+
 📌 Note
 
 This is a frontend-only demo project built for portfolio purposes. The login page uses client-side JavaScript validation only (no real backend authentication).
