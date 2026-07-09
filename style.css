@@ -39,8 +39,8 @@
     color: rgb(14, 14, 175);
     font-weight: 900;
     font-size: 15px;
-    position: relative;
-    left: 80px;;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 section{
     width: 100%;
