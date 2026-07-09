@@ -123,7 +123,7 @@ section{
     border: none !important;
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.8),
                 inset 4px 4px 10px white;
-    margin: 20px 60px;
+    margin: 20px auto;
     overflow: hidden;
     align-items: center;
     border-radius: 20px !important;
@@ -169,7 +169,8 @@ section{
 /*** contact ***/
 #contact .con{
     height: 400px;
-    min-width: 400px;
+    max-width: 400px;
+    width: 100%;
     box-shadow: 10px 10px 20px #000003,
     inset 4px 4px 20px #e5efe5;
     border-radius: 20px;
@@ -201,6 +202,18 @@ section{
     border-radius: 20px;
     padding: 3px;
     align-items: flex-start;
+}
+@media (max-width: 576px) {
+    #contact .con{
+        min-width: unset;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .card{
+        width: 90%;
+        margin: 20px auto;
+        display: block;
+    }
 }
 #contact .top{
     height: 1000px;
