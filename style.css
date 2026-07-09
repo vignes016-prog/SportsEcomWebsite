@@ -170,7 +170,6 @@ section{
 /*** contact ***/
 #contact .con{
     height: 400px;
-    max-width: 400px;
     width: 100%;
     box-shadow: 10px 10px 20px #000003,
     inset 4px 4px 20px #e5efe5;
@@ -206,7 +205,7 @@ section{
 }
 @media (max-width: 576px) {
     #contact .con{
-        min-width: unset;
+        min-width: 350px;
         width: 90%;
         margin: 0 auto;
     }
@@ -217,8 +216,8 @@ section{
     }
 }
 #contact .top{
-    height: 1000px;
-    max-height: 400px;
+    height: auto;
+    width:100% ;
 }
  .info:hover{
     transform: scale(1.1);
