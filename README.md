@@ -1,4 +1,4 @@
-🏆 Champions Corner - Sports E-commerce Website
+<h1>🏆 Champions Corner - Sports E-commerce Website </h1>
 
 A responsive front-end demo website for a sports equipment store, built with HTML, CSS, and Bootstrap 5. This project showcases a complete user flow from login to product browsing.
 
